@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "nunito";
+    src: url(fonts/Nunito-ExtraLight.ttf);
+}
+
+/* Header*/
+
+
+
+header nav div ul li {
+    justify-content: right;
+    
+}
+
+body {
+    background-image: url(images/Back-2\ ph.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    color: whitesmoke;
+}   
+/* Fin Header*/
+
+/* Mobile*/
+.mobile{
+    display: none;
+}
+
+
+/* Fin Mobile*/
+
+
+
+
+/* Inicio */
+.inicio__title {
+   font-size: 60px;
+   padding-bottom: 50px;
+}
+
+#Inicio {
+    font-family: 'nunito';
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    height: 1000px;
+    padding-top: 400px;
+    border-bottom-style: ridge;
+}
+
+/* Fin Inicio*/
+
+/* Nosotros*/
+.nosotros__title {
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+#Nosotros {
+    font-family: 'nunito';
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    height: 800px;
+    padding: 200px;
+    background-color: rgba(0, 112, 112, 0.747);
+    border-bottom-style: ridge;
+}
+
+.bmg {
+    display: flex;
+    justify-content: space-between;
+}    
+
+#AM {
+    width: 75%;
+}
+
+.logos {
+    width:35% ;
+}
+.logos:hover {
+    transition: 2s;
+    transform: scale(70%);
+    width: 60%;
+}
+
+
+/* Fin Nosotros*/
+
+/* Servicios*/ 
+
+.servicios__title {
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#Servicios{
+    font-family: 'nunito';
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    background: rgba(50, 99, 163, 0.85);
+    border-bottom-style: ridge;
+    padding-bottom: 100px;
+}
+
+.fundsFamily{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-right:50px ;
+    padding-left:50px ;
+}
+
+.graph {
+    width: 300px;
+}
+
+.servicios__title-carteras {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+/* Fin Servicios*/ 
+
+/* Invertir*/
+
+.invertir__title {
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#Invertir{
+    font-family: 'nunito';
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom-style: ridge;
+    padding-bottom: 50px;
+} 
+
+.grid  {
+    display: grid;
+    justify-items: center;
+    padding-left: 80px;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding-bottom: 50px;
+}    
+
+.invertir__logoYT {
+    display: none;
+}
+/*Fin Invertir*/
+
+/*Contacto*/
+
+
+.footer{
+    height: 100px;
+    background-color:#212529;
+    color: white;
+    background-image: linear-gradient(to bottom, #212529, #15202c );
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1320px) {
+    .mobile{
+        display: none;
+    }
+
+    #Inicio {
+        height: 600px;
+        padding-top: 300px;
+        border-bottom-style: none;
+
+    }
+    .inicio__title {
+        padding-top: 0px;
+        font-size: 25px;
+    }
+    .fontSize {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    #Nosotros{
+        padding-top: 0px;
+        background-color: rgba(0, 128, 128, 0);
+        border-bottom-style: none;
+        padding-bottom: 0px;
+        height: 400px;
+    }
+
+    .nosotros__title {
+        font-size: 25px;
+    }
+
+    #logos {
+        display: none; 
+    }
+   
+    #Servicios {
+        padding-top: 0px;
+        background-color: rgba(0, 128, 128, 0);
+        border-bottom-style: none;
+    }
+
+    .graph {
+        display: none;
+    }
+
+    .servicios__title {
+        font-size: 25px;
+    }
+
+    .servicios__title-carteras {
+        font-size: 25px;
+    }
+
+    .phtb{
+        display: inline;
+    }
+
+    .invertir__video  {
+        display: none;
+    }
+
+   
+    .invertir__title{
+        font-size: 25px;
+    }
+
+    
+
+}
+    
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    body{
+        background-image: none;
+        background-color:#BBBFCA ;
+    }
+    header{
+        padding-bottom:140px ;
+        background-color: #BBBFCA;
+    }
+    .mobile{ 
+        display: block;
+        background-color: #BBBFCA;
+
+    }
+    .inicio__mobile{       
+        background-color: #BBBFCA;
+    }
+
+    .cuenta__mobile{ 
+        display: flex;
+        justify-content: center;
+        background-color: #BBBFCA;
+        padding-bottom: 50px;
+    }
+    
+    #Inicio{ 
+        display: none;
+    }
+
+    #Nosotros {
+        display: none;
+    }
+    #Servicios {
+        display: none;
+    }
+    #Invertir{
+        display: none;
+    }
+
+    .operar__mobile{
+        padding: 0 25px 0 25px;
+        padding-top: 100px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 500px;
+        
+    }
+
+
+}    
+
+    
+    
+

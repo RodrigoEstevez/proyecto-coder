@@ -1,0 +1,51 @@
+.contacto {
+  height: 550px;
+  padding-top: 80px;
+  padding-left: 300px;
+  padding-right: 300px;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: "nunito" bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.consulta__boton {
+  padding: 50px;
+  font-family: "nunito";
+}
+
+.contacto__title {
+  font-family: "nunito";
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.contacto {
+  background-color: #4d6788;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .invertir__mobile {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .titulo__invertir-mobile {
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .logos__mobile {
+    width: 80%;
+    padding-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

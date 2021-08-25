@@ -1,0 +1,25 @@
+.invertir__mobile {
+
+    @media screen and (min-width: 200px) and (max-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+.titulo__invertir-mobile{
+    @media screen and (min-width: 200px) and (max-width: 480px) {
+        padding-bottom: 40px;
+        padding-top: 60px;
+    }
+}
+
+
+.logos__mobile {
+    @media screen and (min-width: 200px) and (max-width: 480px) {
+        width: 80%;
+        padding-bottom:40px;
+    }
+}
