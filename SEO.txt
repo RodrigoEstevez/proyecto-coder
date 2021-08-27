@@ -1,0 +1,6 @@
+cambios en el html
+1   agregue comentario en el titulo de los enlaces de video. 
+2   modifique el titulo, caracteres dentro del recomendado (46) y palabras claves
+3   agregue algunos meta etiquitas. 
+4   open graph
+5   favicon
