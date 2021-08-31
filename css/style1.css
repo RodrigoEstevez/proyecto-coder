@@ -18,7 +18,6 @@ header nav div ul li {
 
 body {
     background-image: url(../images/Back-2\ ph.jpg);
-    background-color: rgba(47, 53, 51, 0.76);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
@@ -44,6 +43,7 @@ body {
 }
 
 #Inicio {
+    background-color: rgb(25, 31, 56);
     font-family: 'nunito';
     font-size: 30px;
     text-align: center;
