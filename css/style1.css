@@ -17,7 +17,8 @@ header nav div ul li {
 }
 
 body {
-    background-image: url(../images/Back-2\ ph.jpg) ;
+    background-image: url(../images/Back-2\ ph.jpg);
+    background-color: rgba(47, 53, 51, 0.76);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
