@@ -103,6 +103,8 @@ body {
 }
 
 #Servicios{
+    display: grid;
+    grid-row: auto;
     font-family: 'nunito';
     font-size: 30px;
     text-align: center;
