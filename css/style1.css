@@ -107,7 +107,7 @@ body {
     font-size: 30px;
     text-align: center;
     color: whitesmoke;
-    background: rgba(50, 99, 163, 0.85);
+    background: rgba(38, 91, 160, 0.85);
     border-bottom-style: ridge;
     padding-bottom: 100px;
 }
@@ -115,9 +115,12 @@ body {
 .fundsFamily{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-top: 60px;
     padding-bottom: 100px;
-    padding-right:50px ;
-    padding-left:50px ;
+    padding-right:200px ;
+    padding-left:200px ;
 }
 
 .graph {
@@ -145,10 +148,11 @@ body {
 }
 
 #Invertir{
+    background-color: #898d96a8;
     font-family: 'nunito';
     font-size: 30px;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     border-bottom-style: ridge;
     padding-bottom: 50px;
 } 
@@ -175,6 +179,7 @@ body {
     background-color:#212529;
     color: white;
     background-image: linear-gradient(to bottom, #212529, #15202c );
+    border-top-style: ridge;
 }
 
 
@@ -204,7 +209,7 @@ body {
         background-color: rgba(0, 66, 128, 0.534);
         border-bottom-style: none;
         padding-bottom: 0px;
-        height: 400px;
+        height: 600px;
     }
 
     .nosotros__title {
@@ -216,14 +221,11 @@ body {
     }
    
     #Servicios {
-        padding-top: 200px;
-        background-color: rgba(0, 128, 128, 0);
+        padding-top: 50px;
+        background-color: rgba(53, 76, 95, 0.836);
         border-bottom-style: none;
     }
 
-    .graph {
-        display: none;
-    }
 
     .servicios__title {
         font-size: 25px;
@@ -283,8 +285,17 @@ body {
     #Nosotros {
         display: none;
     }
-    #Servicios {
+    .servicios__title{
+        font-size: 25px;
+    }
+    .carterasDiscresionales{
         display: none;
+    }
+    #Servicios {
+        display:flex;
+        flex-wrap: wrap;
+        padding: 0 auto;
+        justify-content: center;    
     }
     #Invertir{
         display: none;
