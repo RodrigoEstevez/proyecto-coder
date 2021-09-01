@@ -288,7 +288,7 @@ body {
     .servicios__title{
         font-size: 25px;
     }
-    .carterasDiscresionales{
+    #carterasDiscresionales{
         display: none;
     }
     #Servicios {
