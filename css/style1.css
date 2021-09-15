@@ -280,6 +280,7 @@ ion-icon {
     body{
         background-image: none;
         background-color:#BBBFCA ;
+        
     }
     header{
         padding-bottom:140px ;
@@ -314,13 +315,26 @@ ion-icon {
     }
     #carterasDiscresionales{
         display: none;
-    }
+    }  
+
+   
     #Servicios{
         display:flex;
-        flex-wrap: wrap;
-        padding: 0 auto;
-        justify-content: center;    
+       flex-wrap: wrap;
+    justify-content: center;
     }
+    .ServiciosMobile{
+        text-align: center;
+    }
+
+    .tarjetasFondos{
+        font-size: 20px;
+        color: whitesmoke;
+        padding: 35px;
+    }
+        
+    
+
     #Invertir{
         display: none;
     }
@@ -340,6 +354,13 @@ ion-icon {
         display: none;
     }
 
+    .textFooter{
+        display: none;
+    }
+    .socialMedia{
+       display: flex;
+       text-align: center;
+    }
 }    
 
     
