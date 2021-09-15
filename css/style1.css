@@ -175,13 +175,37 @@ body {
 
 
 .footer{
-    height: 100px;
+    padding-top: 50px;
+    padding-right: 300px ;
+    padding-left: 300px ;
+    height: 250px;
     background-color:#212529;
     color: white;
     background-image: linear-gradient(to bottom, #212529, #15202c );
     border-top-style: ridge;
 }
+.socialMedia{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
 
+ion-icon {
+    color: rgb(173, 173, 173);
+    font-size: 50px;
+}
+.facebook:hover {
+    color: #3b5998;
+}
+.twitter:hover {
+    color: #00acee;
+}
+.linkedin:hover {
+    color: #0e76a8;
+}
+.youtube:hover {
+    color: #c4302b;
+}
 
 @media only screen and (min-width: 480px) and (max-width: 1320px) {
     .mobile{
