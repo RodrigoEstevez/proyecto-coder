@@ -319,9 +319,8 @@ ion-icon {
 
    
     #Servicios{
-        display:flex;
-       flex-wrap: wrap;
-    justify-content: center;
+        display:none;
+    
     }
     .ServiciosMobile{
         text-align: center;
