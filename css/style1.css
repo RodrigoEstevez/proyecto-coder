@@ -324,15 +324,30 @@ ion-icon {
         
     }
     header{
-        padding-bottom:140px ;
-        background-color: #BBBFCA;
+        display: none;
+    }
+    .headerMobile{
+        width: 100vw;
+        height: 130px;
+        background-color:#212529;
+        border-bottom: ridge;
+        border-color: rgb(0, 116, 184);
+    }
+    .logoMobile{
+        display: flex;
+        justify-items: center;
+        padding-left: 10px;
+        padding-top: 20px;
+        min-width: 50%;
+        max-width: 50%;        
     }
     .mobile{ 
         display: block;
         background-color: #BBBFCA;
 
     }
-    .inicio__mobile{       
+    .inicio__mobile{    
+        padding-top: 5px;   
         background-color: #BBBFCA;
     }
 
@@ -397,8 +412,8 @@ ion-icon {
         display: none;
     }
     .socialMedia{
-        height:150px ;
-        padding-top: 30px;
+        height:80px ;
+        padding-top: 15px;
         background-color:#212529;
         border-top: ridge;
         border-color: rgb(0, 116, 184);
@@ -408,7 +423,7 @@ ion-icon {
         display: none;
     }
 
-
+    
 }    
 
     
