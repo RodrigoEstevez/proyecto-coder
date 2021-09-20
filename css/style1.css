@@ -38,7 +38,7 @@ body {
 
 /* Inicio */
 .inicio__title {
-   font-size: 40px;
+   font-size: 60px;
    padding-bottom: 50px;
 }
 
@@ -52,6 +52,17 @@ body {
     height: 1000px;
     padding-top: 400px;
     border-bottom-style: ridge;
+}
+
+.parrafoInicio{
+    padding-bottom: 60px;
+    
+}
+.botonInicio{
+  border-radius: 7px;
+  width: 150px;
+  
+   
 }
 
 /* Fin Inicio*/
@@ -256,6 +267,9 @@ ion-icon {
         height: 600px;
     }
 
+    .fontSize{
+        font-size: 15px;
+    }
     .nosotros__title {
         font-size: 25px;
     }
@@ -292,14 +306,21 @@ ion-icon {
         font-size: 25px;
     }
 
-    
+    #Contacto{
+        height: 400px;
+    }
+    footer p {
+        display: none;
+    }
 
 }
     
 @media only screen and (min-width: 200px) and (max-width: 480px) {
     body{
+        margin: auto;
         background-image: none;
         background-color:#BBBFCA ;
+        width: 100vw ;
         
     }
     header{
@@ -352,8 +373,6 @@ ion-icon {
         padding: 35px;
     }
         
-    
-
     #Invertir{
         display: none;
     }
@@ -380,6 +399,10 @@ ion-icon {
        display: flex;
        text-align: center;
     }
+
+  
+
+
 }    
 
     
