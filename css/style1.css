@@ -283,9 +283,16 @@ ion-icon {
         
     }
     header{
-        padding-bottom:140px ;
-        background-color: #BBBFCA;
+        display: none;
     }
+    .headerMobile{
+        height: 150px;
+        background-color: #212529;
+    }
+    .logoMobile{
+        text-align: center;
+    }
+
     .mobile{ 
         display: block;
         background-color: #BBBFCA;
